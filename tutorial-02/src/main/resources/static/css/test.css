@@ -1,0 +1,144 @@
+  
+  /* for footer*/
+   
+    .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+    @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+/* source : https://codepen.io/P1N2O/pen/pyBNzX */
+/*for background*/
+
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 10%
+	}
+	10% {
+		background-position: 100% 10%
+	}
+	100% {
+		background-position: 0% 10%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 10%
+	}
+	10% {
+		background-position: 100% 10%
+	}
+	100% {
+		background-position: 0% 10%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 10%
+	}
+	10% {
+		background-position: 100% 10%
+	}
+	100% {
+		background-position: 0% 10%
+	}
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+    justify-content:center;
+    text-align:center;
+   
+}
+
+
+h3{
+	text-align:center;
+	font-size: 100px;
+	font-stretch: expanded;
+	padding : 100px;
+	margin: 100px;
+}
+/* source from internet  */
+/* for typing */
+
+p {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+  margin: 0 auto;
+}
+
+/* Animation */
+p {
+  animation: animated-text 4s steps(10,end) 1s 1 normal both,
+             animated-cursor 600ms steps(10,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 787px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+h5{
+text-indent: 10px;
+text-align: center;
+  background-color: lightgrey;
+  width: 500px;
+  border: 15px #d2afd8 solid;
+  padding: 50px;
+  margin: 0 auto;
+  content-justify:center:
+ 
+}
+/* hello 2 html */
+ /* For pict */
+.photo:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+.photo {
+    height: 175px; 
+    width: 175px;
+    padding: 10px;
+    margin:20px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+     border-radius:50%; 
+     display: block;      
+
+h2{
+text-align:center;
+font-size: 60px;
+font-stretch: expanded;
+}

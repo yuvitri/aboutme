@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<!-- tidak bisa responsive krn web based -->
+<head>
+	<title>Home</title>
+	
+	<head th:fragment="icon">
+		<link rel="icon" type="image/png" href="https://i.ibb.co/4dpVx5q/Ylogo.png">
+	</head>
+	 
+	 <head th:fragment="css">
+        <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    </head>
+
+    <head th:fragment="js">
+        <script th:src="@{/js/bootstrap.min.js}"></script>
+    </head>
+      
+   
+</head>
+
+<body>
+	<nav th:fragment="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#" th:text="${title}"></a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" th:href="@{/}">Home</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" th:href="@{/aboutme}">AboutME</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" th:href="@{/message}">Send Message</a>
+				</ul>
+				<ul class="navbar-nav pull-right">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://drive.google.com/file/d/1AHV4RwTj69rNYUh7mvli7yDoNwZF17Og/view?usp=sharing">Resume</a>
+                </li>
+            </ul>
+			</div>
+	</nav>  
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeLeaf.org">
+	<head> 
+	<title>AboutME</title>
+	<object th:include="fragments/fragment :: icon" th:remove="tag"></object>
+    <object th:include="fragments/fragment :: css" th:remove="tag"></object>
+    <object th:include="fragments/fragment :: js" th:remove="tag"></object>
+    <script src="https://code.iconify.design/1/1.0.2/iconify.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" th:href="@{/css/test.css}">
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+    
+    <style type="text/css">
+    .fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 20px;
+  border-radius: 50%;
+}
+    .fa:hover {
+    opacity: 10;
+}
+.fa-twitter {
+  background: #d2afd8;
+  color: white;
+}
+.fa-linkedin{
+	background:#d2afd8;
+	color: white;
+}
+.fa-github{
+	background:#d2afd8;
+	color: white;
+}
+.fa-gitlab{
+	background:#d2afd8;
+	color:white;
+}
+.fa-instagram{
+	background:#d2afd8;
+	color:white;
+}
+.fa-html5{
+	background:#d2afd8;
+	color:white;
+}
+.fa-css3{
+	background:#d2afd8;
+	color:white;
+}
+    
+    
+    </style>
+
+
+
+	</head>
+	<body>
+	 <nav th:replace="fragments/fragment :: navbar"></nav>	
+		<div class="container">
+        	<div id="wrapper">
+            	<div class="section">
+            	<div class="row">
+            	<img src = "https://i.ibb.co/LJPyQ72/image.jpg" class="photo">
+            	</div>
+            	</div>
+            	<div class="section">
+            		<div class ="row">
+            		<h2>Yuvitri Annisa Dwityafani</h2>
+            		</div>
+            		<div class="row">
+            		<h6 style="padding:10px 10px">Reach me through    <a style="color: #d2afd8;"  href="mailto:yuvitri14@gmail.com">yuvitri14@gmail.com</a> </h6>
+            		</div>
+            	</div>
+            	<div class="section">
+            		<div class="row">
+            		<div class="col">
+            		<a href="http://www.twitter.com/yuvitrii" class="fa fa-twitter"></a>
+            		<a href="http://www.linkedin.com/in/yuvitri-annisa" class="fa fa-linkedin"></a>
+            		<a href="http://wwww.instagram.com/yuvitri" class="fa fa-instagram"></a>
+            		<a href="http://www.github.com/yuvitri" class="fa fa-github"></a>
+            		<a href="http://www.gitlab.com/yuvitri" class="fa fa-gitlab"></a>
+            		</div>
+            		</div>
+            	</div>	
+            	<div class="section">
+            		<div class="row">
+            			<div class="col">
+            				<h6 style="padding:1px;">Expertise</h6>
+            				<!-- i class="fa fa-html5" aria-hidden="true"></i> -->
+            				<img src="https://i.ibb.co/w72ChBT/23735.png" class="fa fa-html5">
+            				<img src="https://i.ibb.co/FqCkVsX/css3-png-11.png" class="fa fa-css3">
+            				<img src="https://i.ibb.co/gSYTFwJ/1264470-200.png" class="fa fa-github">
+            				<img src="https://i.ibb.co/qg5mdHb/postgreesql.png" class="fa fa-github">
+            				<img src="https://img.icons8.com/ios/50/000000/java-coffee-cup-logo-filled.png" class="fa fa-github">
+            				<img src="https://img.icons8.com/ios/50/000000/javascript.png" class="fa fa-github">
+            			</div>
+            		</div>
+            	</div>
+            	<!-- <div class="section">
+            		<a href="http://www.google.com" style="color: white">click This to see my Portofolio</a>
+            	</div> -->
+            	
+            	</div>
+            	</div>
+        <footer class="footer">
+        	<h6>Yuvitri © 2019</h6>
+        </footer>
+	</body>
+</html>
